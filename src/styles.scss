@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+/* @use "@angular/material" as mat;
+
+// Importar estilos base de Angular Material
+@include mat.core();
+
+// Definir paletas de colores válidas
+$accent: mat.define-palette(mat.$rose-palette, "A200"); // Sustitución de pink
+$primary: mat.define-palette(mat.$blue-palette, 500);   // Sustitución de indigo
+$warn: mat.define-palette(mat.$red-palette, 500);
+
+// Crear el tema oscuro con configuraciones válidas
+$theme: mat.define-dark-theme(
+  (
+    color: (
+      primary: $primary,
+      accent: $accent,
+      warn: $warn,
+    ),
+  )
+);
+
+// Aplicar el tema a todos los componentes
+@include mat.all-component-themes($theme); */
+
+// Estilos globales
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  color: white;
+  background-color: #1d1d1d;
+}
