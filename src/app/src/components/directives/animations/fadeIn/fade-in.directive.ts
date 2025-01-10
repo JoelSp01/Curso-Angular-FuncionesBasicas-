@@ -17,5 +17,4 @@ private player =this.builder.build([
 ngOnInit() {
   this.player.play();
 }
-
 }

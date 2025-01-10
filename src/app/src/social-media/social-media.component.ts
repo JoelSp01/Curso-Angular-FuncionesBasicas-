@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { SocialMediaElementComponent } from './social-media-element/social-media-element.component';
 import { SocialMediaElement } from './models';
-import { MainContainerComponent } from '../layout';
-import { WobbleDirective } from '../directives/animations';
+import { MainContainerComponent } from '../components/layout';
+import { WobbleDirective } from '../components/directives/animations';
 
 @Component({
   selector: 'app-social-media',
